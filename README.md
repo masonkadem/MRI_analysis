@@ -22,7 +22,7 @@ This repository contains a Python-based DTI (Diffusion Tensor Imaging) processin
 4. Run the `dti_processing.py` script:
 
 ```bash
-python dti_processing.py
+python dti_processing.py <path> <input_dir> <output_dir> <bval_file> <bvec_file> <TotalReadoutTime>
 ```
 
 The script will generate DTI maps (FA, MD, RD, and AD) and save them as NIfTI files in the specified output directory. It will also display a 2x2 plot of the generated maps.
