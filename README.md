@@ -1,6 +1,6 @@
 # DTI Processing Pipeline
 
-This repository contains a concise Python-based DTI (Diffusion Tensor Imaging) processing pipeline that converts DICOM data to Nifti format, skull strips, performs eddy correction using FSL, fits a tensor model, and generates Fractional Anisotropy (FA), Mean Diffusivity (MD), Radial Diffusivity (RD), and Axial Diffusivity (AD) maps.
+This repository contains a concise Python-based DTI (Diffusion Tensor Imaging) processing pipeline that includes DICOMS to NIfTI conversion, skull stripping, eddy correction using FSL, fits a tensor model, and generates Fractional Anisotropy (FA), Mean Diffusivity (MD), Radial Diffusivity (RD), and Axial Diffusivity (AD) maps.
 
 ## Dependencies
 
