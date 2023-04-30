@@ -33,6 +33,10 @@ python dti_processing.py <path> <input_dir> <output_dir> <bval_file> <bvec_file>
 
 The script will generate DTI maps (FA, MD, RD, and AD) and save them as NIfTI files in the specified output directory. It will also display a 2x2 plot of the generated maps.
 
+Example output showing FA, MD, RD, and AD maps:
+
+![Example Output](images/dtimetrics.png)
+
 License
 [MIT License]
 
