@@ -35,7 +35,7 @@ The script will generate DTI maps (FA, MD, RD, and AD) and save them as NIfTI fi
 
 Example output showing FA, MD, RD, and AD maps:
 
-![Example Output](images/dtimetrics.png)
+![Example Output](dtimetrics.png)
 
 License
 [MIT License]
