@@ -1,10 +1,11 @@
 # MRI Processing Pipelines
 
+
+This repository contains concise Python-based MRI analysis processing pipeline that provide simple and accessible solutions for researchers, clinicians, and students working with MRI data (i.e., structural, fMRI, MRS, DTI data)
+
 ## DTI Processing Pipeline
 
-This repository contains a concise Python-based DTI (Diffusion Tensor Imaging) processing pipeline that includes DICOMS to NIfTI conversion, skull stripping, eddy correction using FSL, fits a tensor model, and generates Fractional Anisotropy (FA), Mean Diffusivity (MD), Radial Diffusivity (RD), and Axial Diffusivity (AD) maps.
-
-This DTI processing pipeline aims to provide a simple and accessible solution for researchers, clinicians, and students working with Diffusion Tensor Imaging data. The pipeline is designed with user-friendliness in mind, enabling users to process their DTI data with minimal setup and prior knowledge of the field.
+This DTI processing pipeline includes DICOMS to NIfTI conversion, skull stripping, eddy correction using FSL, fits a tensor model, and generates Fractional Anisotropy (FA), Mean Diffusivity (MD), Radial Diffusivity (RD), and Axial Diffusivity (AD) maps. aims to  Diffusion Tensor Imaging data. The pipeline is designed with user-friendliness in mind, enabling users to process their DTI data with minimal setup and prior knowledge of the field.
 
 The script consolidates several essential processing steps into a single, easy-to-use pipeline. This allows users to focus on their research objectives without getting bogged down in the complexities of multiple tools and manual processing steps. Moreover, the pipeline integrates well-known tools, such as dcm2niix and FSL, ensuring the quality and reliability of the processing.
 
